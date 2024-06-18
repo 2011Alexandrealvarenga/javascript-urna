@@ -69,6 +69,8 @@ function clicou(n) {
         numero = `${numero}${n}`;
 
         elNumero.classList.remove('pisca');
+
+        // proximo elemento nextElementSibling
         if(elNumero.nextElementSibling !== null) {
             elNumero.nextElementSibling.classList.add('pisca');
         } else {
